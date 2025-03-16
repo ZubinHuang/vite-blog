@@ -2,7 +2,7 @@
   "name": "@AaronWong/viteblog",
   "version": "1.0.2",
   "main": "index.js",
-  "homepage": "https://2401345934.github.io/vite-press/",
+  "homepage": "https://github.com/ZubinHuang/vite-blog/",
   "author": "AaronWong",
   "engines": {
     "node": ">=14.18.0",
