@@ -3,6 +3,7 @@ import MyLayout from './MyLayout.vue'
 import AlanViteComponent from "@xiaomh/vue3-alan-vite-component"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
 import HomeBackgrount from "./components/HomeBackgrount.vue"
+import PersonalCard from './components/PersonalCard.vue'
 import '@xiaomh/vue3-alan-vite-component/lib/style.css';
 import "./global.scss"
 export default {
@@ -13,5 +14,6 @@ export default {
     app.use(AlanViteComponent)
     app.component('ArticleMetadata', ArticleMetadata)
     app.component('HomeBackgrount', HomeBackgrount)
+    app.component('PersonalCard', PersonalCard)
   }
 }

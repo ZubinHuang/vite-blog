@@ -10,6 +10,9 @@ hero:
   tagline: 个人知识库
   actions:
     - theme: brand
+      text:  🔥🔥🔥最火DeepSeek🐳问答 
+      link: http://47.112.184.203:8898/deepseek-chat/
+    - theme: alt
       text: 开始
       link: /interview-questions/html/start/
     - theme: alt

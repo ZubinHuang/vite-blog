@@ -8,7 +8,7 @@ const resultList: Array<{ text: string, link: string, activeMatch: string }> = [
   { text: "工程化", link: "/engineering/npm/private/", activeMatch: '/engineering/' },
   { text: "工作工具", link: "/tool/compressed-image/", activeMatch: '/tool/' },
   { text: "CHANGELOG", link: "/CHANGELOG/", activeMatch: '/CHANGELOG/' },
-  { text: "deepseek-chat", link: "http://47.112.184.203:8898/deepseek-chat/", activeMatch: '/deepseek-chat/' },
+  { text: "deepseek-chat", link: "http://zubylon.tech/deepseek-chat/", activeMatch: '/deepseek-chat/' },
 
 ]
 

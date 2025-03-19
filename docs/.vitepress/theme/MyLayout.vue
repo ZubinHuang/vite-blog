@@ -23,6 +23,9 @@ const detectDeviceType = () => {
         <Copyright :key="md5(page.relativePath)" />
       </ClientOnly>
     </template>
+    <!-- <template #home-hero-after>
+      <PersonalCard />
+    </template> -->
     <template #doc-after>
       <ClientOnly>
         <ValineComment />
