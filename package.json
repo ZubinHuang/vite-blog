@@ -43,6 +43,7 @@
     "prettier": "^3.0.3",
     "prompts": "^2.4.2",
     "vitepress": "^1.0.2",
+    "vitepress-plugin-music": "^0.0.9",
     "vitepress-plugin-search": "^1.0.4-alpha.22",
     "zx": "^7.2.3"
   },

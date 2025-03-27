@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text:  🔥🔥🔥最火DeepSeek🐳问答 
-      link: http://47.112.184.203:8898/deepseek-chat/
+      link: https://zubylon.tech/deepseek-chat/
     - theme: alt
       text: 开始
       link: /interview-questions/html/start/

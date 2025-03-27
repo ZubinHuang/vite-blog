@@ -1,4 +1,7 @@
 ---
+title: 前端,检查设备上的触摸支持
+description: 判断图片尺寸。
+keywords: js, 判断图片尺寸, 统计页面中所有标签的种类和个数,检查设备上的触摸支持,检测密码强度,求两个集合的交集,深拷贝,纯JS监听document是否加载完成
 createTime: 2025/3/16
 tag: 'utils'
 ---

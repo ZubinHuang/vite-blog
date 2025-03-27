@@ -16,7 +16,7 @@ const themeConfig = {
   },
   footer: {
     message: `Powered By VitePress<br>
-    Copyright © 2025 | zubylon.tech<br> <a href='https://beian.miit.gov.cn' style="text-decoration: none;  transition: color 0.3s;" target="_blank" >鄂ICP备2025100744号-1 </a>  | <a href="tencent://message/?uin=1135245801" 
+    Copyright © 2025 | zubylon.tech<br> <a href='https://beian.miit.gov.cn' style="text-decoration: none;  transition: color 0.3s;" target="_blank" >鄂ICP备2025100744号</a>  | <a href="tencent://message/?uin=1135245801" 
        style="text-decoration: none; ">
       <i class="icon-qq"></i> 
       联系QQ：1135245801

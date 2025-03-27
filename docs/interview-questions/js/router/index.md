@@ -1,4 +1,7 @@
 ---
+title: hash模式和 history模式
+description: 前端路由的hash模式和 history模式。
+keywords: JavaScript, hash模式,history模式, 前端面试题
 createTime: 2025/3/16
 tag: 'js,面试题'
 ---

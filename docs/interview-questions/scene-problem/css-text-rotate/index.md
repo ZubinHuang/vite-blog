@@ -1,4 +1,7 @@
 ---
+title: 场景题,实时更新数据
+description: 实时更新数据。
+keywords: 前端, 面试题, 编程
 createTime: 2025/3/16
 tag: '场景题'
 ---
