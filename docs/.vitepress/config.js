@@ -3,6 +3,7 @@ import themeConfig from "./config/themeConfig"
 import markdown from "./config/markdown"
 
 export default {
+ 
   title: "Aaron",
   lang: 'zh-CN',
   locale: 'zh_CN',

@@ -17,7 +17,7 @@ hero:
       link: /interview-questions/html/start/
     - theme: alt
       text: 在 github 上查看
-      link: https://github.com/ZubinHuang
+      link: https://github.com/webEngineerWong
     - theme: alt
       text: 在 掘金 上查看
       link: https://juejin.cn/user/281091999819374
@@ -46,3 +46,5 @@ features:
 
 
 <HomeBackgrount></HomeBackgrount>
+<Live2D></Live2D>
+

@@ -45,11 +45,13 @@ const playlist = [
     file: 'https://music.163.com/song/media/outer/url?id=549320309.mp3',
   },
 ]
+
 export default {
   ...DefaultTheme,
   // override the Layout with a wrapper component that injects the slots
   Layout: MyLayout,
-  enhanceApp ({ app }) {
+    enhanceApp ({ app }) {
+   
     app.use(AlanViteComponent)
     app.component('ArticleMetadata', ArticleMetadata)
     app.component('HomeBackgrount', HomeBackgrount)

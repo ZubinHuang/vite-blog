@@ -7,7 +7,7 @@ const themeConfig = {
   lastUpdatedText: '最后更新', // 最后更新时间文本配置, 需先配置lastUpdated为true
   // 编辑链接配置
   editLink: {
-    pattern: 'https://github.com/ZubinHuang',
+    pattern: 'https://github.com/webEngineerWong',
     text: '不妥之处，敬请雅正'
   },
   docFooter: {
