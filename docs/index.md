@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text:  🔥🔥🔥最火DeepSeek🐳问答 
       link: https://zubylon.tech/deepseek-chat/
+    - theme: brand
+      text:  剑指offer（Python版本）视频 
+      link: /learning/python/
     - theme: alt
       text: 开始
       link: /interview-questions/html/start/

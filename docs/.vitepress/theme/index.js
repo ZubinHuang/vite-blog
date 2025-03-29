@@ -4,6 +4,10 @@ import AlanViteComponent from "@xiaomh/vue3-alan-vite-component"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
 import HomeBackgrount from "./components/HomeBackgrount.vue"
 import PersonalCard from './components/PersonalCard.vue'
+import Confetti from './components/Confetti.vue'
+import VisitorPanel from "./components/VisitorPanel.vue";
+import busuanzi from "busuanzi.pure.js";
+import { inBrowser } from "vitepress";
 import '@xiaomh/vue3-alan-vite-component/lib/style.css';
 import "./global.scss"
 import vitepressMusic from 'vitepress-plugin-music'
@@ -50,12 +54,26 @@ export default {
   ...DefaultTheme,
   // override the Layout with a wrapper component that injects the slots
   Layout: MyLayout,
-    enhanceApp ({ app }) {
-   
+    enhanceApp ({ app,router }) {
+      // 线上环境才上报
+     router.onBeforeRouteChange=(to)=>{
+      if(import.meta.env.MODE==='production'){
+        if(typeof _hmt !=='undefined'&&!!to){
+          _hmt.push(['_trackPageview',to])
+        }
+      }
+     }
     app.use(AlanViteComponent)
     app.component('ArticleMetadata', ArticleMetadata)
     app.component('HomeBackgrount', HomeBackgrount)
     app.component('PersonalCard', PersonalCard)
     app.component(vitepressMusic(playlist))
+    app.component("Confetti", Confetti);
+    app.component("VisitorPanel", VisitorPanel);
+    if (inBrowser) {
+      router.onAfterRouteChanged = () => {
+        busuanzi.fetch();
+      };
+    }
   }
 }

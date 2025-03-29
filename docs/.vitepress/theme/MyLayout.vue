@@ -6,7 +6,7 @@ import { useData } from "vitepress";
 import md5 from "blueimp-md5";
 import { onMounted } from "vue";
 const { page } = useData();
-const { Layout } = DefaultTheme;
+import Layout from "./components/Layout.vue";
 import SvgIcon from "./components/SvgIcon.vue";
 const detectDeviceType = () => {
   if (typeof window === "undefined") return;
@@ -97,4 +97,6 @@ onMounted(async () => {
       </ClientOnly>
     </template>
   </Layout>
+  <Confetti></Confetti>
+  <VisitorPanel />
 </template>
